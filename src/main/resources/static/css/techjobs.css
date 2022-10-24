@@ -15,7 +15,7 @@ td {
 }
 
 tr:nth-child(odd) {
-    background-color: #e4e4e4;
+    background-color: pink;
 }
 
 .centeredTable {
@@ -31,6 +31,8 @@ table.job-listing {
 
 table.job-listing td:first-child {
     font-weight: bold;
+    color: purple;
+    font-family: cursive;
 }
 
 table.job-listing td:last-child {

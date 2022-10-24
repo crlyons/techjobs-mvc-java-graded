@@ -28,7 +28,7 @@
     </div>
 
     <table th:fragment="job-table" th:each="job : ${jobs}" class="job-listing">
-        <tbody>
+
         <tr>
             <td>ID</td>
             <td th:text="${job.id}"></td>
@@ -53,7 +53,7 @@
             <td>Skill</td>
             <td><a th:href="@{/list/jobs(column=coreCompetency,value=${job.coreCompetency})}" th:text="${job.coreCompetency}"></a></td>
         </tr>
-        </tbody>
+
     </table>
 
 </body>
