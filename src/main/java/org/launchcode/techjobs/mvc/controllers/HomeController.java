@@ -13,6 +13,7 @@ import java.util.HashMap;
 @Controller
 public class HomeController {
 
+   //displays the home page for the app
     @GetMapping(value = "")
     public String index(Model model) {
 
